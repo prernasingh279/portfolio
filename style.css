@@ -454,10 +454,81 @@ footer p {
 }
 
 @keyframes blink-caret {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
     border-color: black;
+  }
+}
+
+.about-edu-containers {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.education-block {
+  /* max-width: 700px; */
+  /* margin: 0 auto 30px auto; */
+  /* padding: 15px; */
+  text-align: left;
+  flex: none;
+}
+
+.education-block h3 {
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  margin-right: 3rem;
+}
+
+.education-block span {
+  float: right;
+  color: rgb(85, 85, 85);
+}
+
+.education-block h4 {
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  color: rgb(85, 85, 85);
+}
+
+.education-block p,
+ul {
+  margin: 0;
+}
+
+.education-block ul {
+  padding: 0 0 0 15px;
+}
+
+.coursework {
+  flex: 1;
+  ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+}
+
+.coursework-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .education-block {
+    h3,
+    span {
+      float: none;
+    }
   }
 }
