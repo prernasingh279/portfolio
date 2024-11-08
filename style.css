@@ -154,6 +154,7 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  position: relative;
 }
 
 .section-container {
@@ -314,6 +315,10 @@ section {
   margin: auto 0;
 }
 
+.profile_pic {
+  border-radius: 60%;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -329,8 +334,10 @@ section {
 
 .experience-details-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .article-container {
@@ -474,9 +481,6 @@ footer p {
 }
 
 .education-block {
-  /* max-width: 700px; */
-  /* margin: 0 auto 30px auto; */
-  /* padding: 15px; */
   text-align: left;
   flex: none;
 }
@@ -531,4 +535,45 @@ ul {
       float: none;
     }
   }
+}
+
+
+#skills ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: #374054;
+  background: hsl(240, 13.0434782609%, 90.4901960784%);
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+}
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 auto;
+}
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+}
+.skill-icon {
+  width: 140px;
+  height: auto;
+}
+.skill-name span {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
 }
