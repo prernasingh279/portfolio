@@ -101,3 +101,10 @@
     text-align: justify;
   }
 }
+
+@media (max-width: 768px) {
+  .experience-block {
+    width: 100%;
+    flex-basis: 100%;
+  }
+}

@@ -335,30 +335,10 @@ section {
 .experience-details-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
   gap: 2rem;
+  justify-content: space-between;
 }
 
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
-}
-
-article {
-  display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
-}
-
-article .icon {
-  cursor: default;
-}
 
 /* PROJECTS SECTION */
 
@@ -544,6 +524,7 @@ ul {
   padding: 0;
   max-width: 800px;
 }
+
 #skills li {
   display: inline-block;
   margin: 7px;
@@ -554,6 +535,7 @@ ul {
   cursor: default;
   font-size: 1.2em;
 }
+
 .skills-section {
   display: flex;
   flex-wrap: wrap;
@@ -561,6 +543,7 @@ ul {
   gap: 60px;
   margin: 0 auto;
 }
+
 .skill-item {
   display: flex;
   flex-direction: column;
@@ -572,8 +555,51 @@ ul {
   width: 140px;
   height: auto;
 }
+
 .skill-name span {
   margin-top: 5px;
   font-size: 14px;
   text-align: center;
+}
+
+
+.about-exp-containers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.exp-container {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: left;
+  width: 48%;
+  box-sizing: border-box;
+  flex: none;
+}
+
+.exp-container h3 {
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  margin-right: 3rem;
+}
+
+.exp-container span {
+  float: right;
+  color: rgb(85, 85, 85);
+}
+
+.exp-container h4 {
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  color: rgb(85, 85, 85);
 }
