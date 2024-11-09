@@ -339,7 +339,6 @@ section {
   justify-content: space-between;
 }
 
-
 /* PROJECTS SECTION */
 
 #projects {
@@ -517,7 +516,6 @@ ul {
   }
 }
 
-
 #skills ul {
   display: block;
   margin: 0 auto;
@@ -561,7 +559,6 @@ ul {
   font-size: 14px;
   text-align: center;
 }
-
 
 .about-exp-containers {
   display: flex;
