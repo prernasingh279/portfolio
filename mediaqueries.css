@@ -102,8 +102,9 @@
   }
 }
 
-@media (max-width: 768px) {
-  .experience-block {
+
+@media only screen and (max-width: 768px) {
+  .exp-container {
     width: 100%;
     flex-basis: 100%;
   }
