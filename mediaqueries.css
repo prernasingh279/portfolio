@@ -3,7 +3,10 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-containers {
+  .about-containers,
+  .about-exp-containers,
+  .about-details-container,
+  .about-edu-containers {
     flex-wrap: wrap;
   }
   #contact,
@@ -43,7 +46,10 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-  .about-containers {
+  .about-containers,
+  .about-exp-containers,
+  .about-details-container,
+  .about-edu-containers {
     margin-top: 0;
   }
 }
@@ -65,7 +71,10 @@
     margin-bottom: 2rem;
   }
   .about-containers,
+  .about-exp-containers,
   .contact-info-upper-container,
+  .about-details-container,
+  .about-edu-containers,
   .btn-container {
     flex-wrap: wrap;
   }
